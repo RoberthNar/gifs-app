@@ -1,0 +1,14 @@
+
+  <!-- Este es el sidebar -->
+  <div class="bg-dark border-right p-3" id="sidebar">
+    <h3 class="text-light">
+      Gifts-App
+    </h3>
+    <hr class="text-light"/>
+    <div class="list-group list-reset">
+      <a href="#" *ngFor="let historial of historiales" class="list-group-item list-group-item-action">
+        {{ historial | titlecase }}
+      </a>
+    </div>
+  </div>
+  <!-- Fin del sidebar -->
